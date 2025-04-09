@@ -1,0 +1,22 @@
+Session 4: Docker & Microservices
+Docker Basics
+
+OS-level virtualization
+
+Enables platform-independent, portable apps
+
+Each microservice has its own Dockerfile, image, container
+
+Monolithic vs Microservices
+
+Monolithic: Single-tier app; tightly coupled; single point of failure
+
+Microservices: Independently deployable services; loosely coupled
+
+Advantages:
+
+Fault isolation
+
+Scalability
+
+“Build Once, Run Anywhere”
