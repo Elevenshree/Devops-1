@@ -1,0 +1,90 @@
+
+  Session 2
+
+Fast delivery 
+Quality
+Lesser spending 
+Availability
+
+Cloud is like a remote services . 
+
+There are two data centre in India  : Mumbai and Hydrabad 
+Data centre is collection of servers 
+IAAS : Infrastructure as a service 
+PAAS  : Platform  as a service 
+SAAS :  Software as a service 
+
+Aws provides auto scaling 
+Availability of services 
+It promises 99.11 
+Ondemand 
+
+
+Elastic compute cloud 
+
+Aws  
+Compute 
+Ec2 
+Containers
+Elastic Kubernetes Service   
+The most trusted way to start, run, and scale Kubernetes
+Without creating vic we can’t deploy any application 
+
+
+Os
+Server configuration 
+Storage 
+Types of linux server 
+Red heart family : all the os : amazon linux , oracle Linus , RHEL , Suse Linus 
+Httpd: these stands for demon linux , it works in a backend and it accepts and provide response 
+Devian family : ubantu , deviant os 
+Apache2server or nginx server 
+
+
+Whenever we want to install any packages in linux server we have install yum command , 
+ cd downloads  
+ ls
+chmod 400 "Shreeya-webserver.pem"
+ ssh -i "Shreeya-webserver.pem" ec2-user@ec2-18-141-56-27.ap-southeast-1.compute.amazonaws.com
+visudo
+sudo su
+yum install httpd
+which httpd
+
+Copy git url (fork)
+
+ yum install git -y
+git clone -b master https://github.com/Elevenshree/Coursevita-Retail-Project.git
+
+
+visudo
+    2  yum install httpd
+    3  which httpd
+    4  git clone -b master https://github.com/Elevenshree/Oracle-Training-Retail.git
+    5  git clone -b master https://github.com/Elevenshree/Oracle-Training-Retail.git
+    6  yum install git -y
+    7  git clone -b master https://github.com/Elevenshree/Oracle-Training-Retail.git
+    8  git clone -b main https://github.com/Elevenshree/Oracle-Training-Retail.git
+    9  ls
+   10  cd Oracle-Training-Retail
+   11  ls
+   12  cp -r . /var/www/html
+   13  service httpd status
+   14  service httpd start
+   15  service httpd status
+   16  ls
+   17  cp -r . /var/www/html
+   18  visudo 
+   19  yum install httpd
+   20  which httpd
+   21  service httpd status
+   22  yum install git -y
+   23  git clone -b main https://github.com/Elevenshree/Oracle-Training-Retail.git
+   24  ls
+   25  cd Oracle-Training-Retail
+   26  ls
+   27  cp -r . /var/www/html
+   28  y
+   29  history
+
+
