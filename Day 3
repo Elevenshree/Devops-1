@@ -1,0 +1,59 @@
+Session 3 
+
+Terraform is a IAAC (AWS)
+Whenever we want to create a cloud resources like ec2 , vic , subnets , internet gateway , load balancer , db servers  any resource
+ You want to create by using automation or script we are using terraform 
+
+Install terraform on your windows machine 
+We have to set terraform  path on the windows machine 
+Configure was credential from cli (command line interface)
+Install was cli 
+
+
+Aws 
+Users
+Create user 
+Put name 
+Next
+	Type	Attached via	
+	AmazonEC2FullAccess	AWS managed	Directly
+	AmazonVPCFullAccess	AWS managed	Directly
+
+ Create user 
+Security credentials
+Create access key 
+Vs code 
+
+When you are writing terraform write we have to use different blocks 
+First one is provider blocks … provider blocks defines in which cloud we are doing automation 
+We have to write resource blocks resource block is nothing but like what kind of resource that we want to create on cloud … ec2 instance vic loadbalcner 
+Next step we have to define the variable blocks  … variable blocks are nothing but we want to pass any paprameter the we have to pass variable blocks 
+There are 3 types of variables
+Next blocks : output.tf file if we want to print output in console  like public ip address and private ip or vpc name / id 
+
+When we are creating instance using terraform script makesure this 5 parameter we pass
+ The first parameter is amazon id 
+2. Instance type 
+3. Key pair name 
+4. storage 
+5. Instance name 
+Wehn we execute the command called terraform plan command 
+
+ Vic should contain name and ip address 
+
+What is docker : 
+Docker is a continuation tool which can help us to create portability of app  so use resoorce affectively to create platform independent app we are going with a docker 
+Docker is going to perform os level virtualisation technics 
+We are going to use docker to reduce the cost of the servers , to run the app wherever we want we are going to to something it is called as the docker 
+Application ll devide into the module called as the micro services each and every micro service ll have a separate docker file , image , container 
+Every micro service application ll deploy in a container 
+Monolithic app is nothing but it is a single tier architecture which means web server app server db server we are combing together and we are deploying in a single server 
+Issues with the monolithic app 
+If any module goes down the complete app goes down becasue iit is a tightly coupled nature 
+ If one service goes down the entire app ll go down that a reason we are moving towards the micro services 
+
+What is micro services : 
+It ll break down app into the independent services that’s called lonely coupled app 
+If any one service goes down only customer ll not able to access the service …. Remaining services ll go as it is  
+Build once run everywhere 
+
